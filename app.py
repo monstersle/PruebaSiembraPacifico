@@ -16,7 +16,7 @@ def recibir_datos():
 # Ruta de prueba para ver que el servidor esté corriendo
 @app.route('/')
 def index():
-    return 'Servidor Flask funcionando correctamente', 200
+    return 'Servidor Flask funcionando correctamente y con algunas mejoras', 200
 
 if __name__ == '__main__':
     # Inicia el servidor Flask
